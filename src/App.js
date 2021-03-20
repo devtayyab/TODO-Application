@@ -8,7 +8,7 @@ export const App = ( ) =>{
     const [data, setData] = useState([]);
 
     useEffect(() => {
-      fetch(`/.netlify/functions/hello?name=from Serverless Function tayyab`)
+      fetch(`/.netlify/functions/hello?name=from Serverless Function`)
         .then(response => response.json())
         .then(data => setData(data));
     }, []);
