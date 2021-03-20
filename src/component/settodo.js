@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import {DeleteAll, SetTodo} from '../store/action'
 import TextField from '@material-ui/core/TextField';
 
+
 export const Setdata = () =>{
 
     var [todo, settodo] = useState("");
